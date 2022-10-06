@@ -1,6 +1,7 @@
 package com.simplilearn.testng;
 
 import org.testng.annotations.Test;
+
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -64,7 +65,7 @@ public class NewTest {
 	@BeforeMethod
 	public void beforeMethod() {
 		
-		System.setProperty("webdriver.chrome.driver", "F:\\\\\\\\GitHub\\\\\\\\phase-1\\\\\\\\demo\\\\\\\\Phase5\\\\\\\\chromedriver_win32\\\\\\\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\\\Mphasis-java-pahse5\\\\chromedriver_win32\\\\chromedriver.exe");
 		driver= new ChromeDriver();
 	}
 	@AfterMethod
